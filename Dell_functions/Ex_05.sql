@@ -20,3 +20,4 @@ $$ LANGUAGE PLPGSQL;
 
 
 
+-- In the following functions we perform an update of the price column of the products table, increasing the price by 5%.
