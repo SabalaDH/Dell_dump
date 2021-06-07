@@ -12,3 +12,6 @@ RETURN (before, after);
 END;
 $$ LANGUAGE plpgsql;
 
+
+
+-- In this function we use the plpgsql language to eliminate customers under 18 years of age, returning with a count, the number of customers that existed before and after having eliminated them.
