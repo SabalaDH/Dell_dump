@@ -27,3 +27,7 @@ select title, price from products where price > 1.2 * avg_price_sql();
 select title, price from products where
 ABS(price-avg_price_sql()) > 0.2 * avg_price_sql();
 
+
+
+
+-- In this exercise we make different queries using the function that we created in exercise 8.
