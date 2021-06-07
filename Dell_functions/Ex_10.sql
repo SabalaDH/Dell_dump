@@ -19,3 +19,6 @@ RETURN QUERY SELECT * from products p where p.category = $1;
 end;
 $$ LANGUAGE PLPGSQL;
 
+
+
+-- In these functions we select all the products of a category (which will be defined by a parameter of the function)
