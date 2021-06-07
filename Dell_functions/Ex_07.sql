@@ -16,3 +16,7 @@ select p.prod_id, p.title, p.price into show_prod_plpgsql.prod_id, show_prod_plp
 end;
 $$ LANGUAGE PLPGSQL;
 
+
+
+
+-- With these functions we select the prod_id, title and price columns of the products table according to the parameter that we pass through the function, which in this case will be the ID.
