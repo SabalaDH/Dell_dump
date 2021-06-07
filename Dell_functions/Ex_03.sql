@@ -41,3 +41,7 @@ $$ LANGUAGE plpgsql;
 
 
 
+
+
+
+--  In the following functions we insert data declaring it in different ways, the first one with named parameters, the second one with numbered parameters, the third one with parameters with the same name that the table fields (category, categoryname), and the last one with only a single parameter (data type 'categories').
