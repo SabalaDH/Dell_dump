@@ -16,3 +16,5 @@ select lastname into last from customers where customerid = $1;
 end;
 $$ LANGUAGE PLPGSQL;
 
+
+-- With these functions, we select the first and last name from the customers table according to the parameter that we pass in the function.
