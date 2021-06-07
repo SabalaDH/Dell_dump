@@ -22,3 +22,4 @@ $$ LANGUAGE PLPGSQL;
 
 
 
+-- We create 2 functions to obtain all the data from the different columns of the customers table, being able to choose according to the parameter that we pass through the function.
