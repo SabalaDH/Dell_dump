@@ -30,14 +30,14 @@ $$ LANGUAGE plpgsql;
 
 
 
+--- Fourth Function --- 
 
-
---- Third Function ---
-
-CREATE FUNCTION insert_category3_sql(category integer, categoryname varchar) 
+CREATE FUNCTION insert_category4_sql(pcategory categories)
 RETURNS void AS $$
 BEGIN
-INSERT INTO categories (category, categoryname) values (category, categoryname);
+INSERT INTO categories VALUES (pcategory.category, pcategory.categoryname);
 end;
 $$ LANGUAGE plpgsql;
+
+
 
